@@ -41,8 +41,6 @@ export default function Contact() {
 
   const socialLinksData = [
     { name: 'GitHub', icon: Github, url: socialLinks.github, color: 'hover:text-foreground' },
-    { name: 'LinkedIn', icon: Linkedin, url: socialLinks.linkedin, color: 'hover:text-blue-500' },
-    { name: 'Twitter', icon: Twitter, url: socialLinks.twitter, color: 'hover:text-sky-500' },
     { name: 'Email', icon: Mail, url: `mailto:${socialLinks.email}`, color: 'hover:text-primary' },
   ];
 

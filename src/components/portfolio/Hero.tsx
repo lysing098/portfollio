@@ -143,7 +143,7 @@ export default function Hero() {
         >
           <p className="text-sm text-muted-foreground mb-4">Technologies I work with</p>
           <div className="flex flex-wrap justify-center gap-3">
-            {['React', 'TypeScript', 'Laravel', 'Java', 'Tailwind CSS', 'MySQL'].map((tech, index) => (
+            {['React', 'Vue', 'Laravel', 'Java Spring Boot', 'Tailwind CSS', 'MySQL'].map((tech, index) => (
               <motion.span
                 key={tech}
                 initial={{ opacity: 0, scale: 0.8 }}

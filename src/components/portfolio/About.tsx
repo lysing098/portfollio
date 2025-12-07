@@ -6,6 +6,7 @@ import { Download, Sparkles, BookOpen, Rocket, Code } from 'lucide-react';
 const technologies = [
   { name: 'Laravel', icon: '🔴', description: 'PHP Framework' },
   { name: 'React', icon: '⚛️', description: 'Frontend Library' },
+  { name: 'Vue', icon: '🟩', description: 'Frontend Framework' }, // added Vue
   { name: 'Java Spring Boot', icon: '🍃', description: 'Backend Framework' },
   { name: 'JavaScript', icon: '🟨', description: 'Programming Language' },
   { name: 'HTML/CSS', icon: '🌐', description: 'Web Fundamentals' },
@@ -13,6 +14,7 @@ const technologies = [
   { name: 'Design', icon: '🎨', description: 'UI/UX Principles' },
   { name: 'Git', icon: '📦', description: 'Version Control' },
 ];
+
 
 const highlights = [
   {
@@ -174,7 +176,7 @@ export default function About() {
               <h4 className="font-semibold mb-4 text-foreground">Current Focus</h4>
               <div className="space-y-3">
                 <div className="flex justify-between items-center">
-                  <span className="text-sm text-muted-foreground">React & TypeScript</span>
+                  <span className="text-sm text-muted-foreground">React & Vue</span>
                   <span className="text-sm font-medium text-primary">Primary</span>
                 </div>
                 <div className="flex justify-between items-center">

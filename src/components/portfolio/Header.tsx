@@ -72,7 +72,7 @@ export default function Header() {
             whileTap={{ scale: 0.98 }}
           >
             <Code2 className="w-6 h-6 text-primary group-hover:rotate-12 transition-transform duration-300" />
-            <span className="gradient-text">DevPortfolio</span>
+            <span className="gradient-text">Lysing</span>
           </motion.a>
 
           {/* Desktop Navigation */}

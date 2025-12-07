@@ -83,10 +83,10 @@ export default function Footer() {
         </div>
 
         {/* Divider */}
-        <div className="my-8 border-t border-border" />
+        {/* <div className="my-8 border-t border-border" /> */}
 
         {/* Bottom Section */}
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
+        {/* <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
           <p className="flex items-center gap-1">
             © {currentYear} DevPortfolio. Made with
             <Heart className="w-4 h-4 text-red-500 fill-red-500 mx-1" />
@@ -99,7 +99,7 @@ export default function Footer() {
             {' '}&{' '}
             <span className="text-primary font-medium">Tailwind CSS</span>
           </p>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
