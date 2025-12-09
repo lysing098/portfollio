@@ -48,7 +48,6 @@ export default function Projects() {
 
   return (
     <section id="projects" className="py-24 md:py-32 relative">
-      {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-secondary/20 to-transparent" />
 
       <div className="section-container relative" ref={ref}>
@@ -109,7 +108,6 @@ export default function Projects() {
                 onClick={() => openModal(project)}
                 className="glass-card glass-card-hover rounded-2xl overflow-hidden cursor-pointer group"
               >
-                {/* Thumbnail */}
                 <div className="relative h-48 overflow-hidden">
                   <img
                     src={project.thumbnail}
@@ -118,15 +116,11 @@ export default function Projects() {
                     loading="lazy"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-card via-transparent to-transparent" />
-                  
-                  {/* Featured Badge */}
                   {project.featured && (
                     <span className="absolute top-3 left-3 px-2 py-1 rounded-md bg-primary/90 text-primary-foreground text-xs font-medium">
                       Featured
                     </span>
                   )}
-
-                  {/* Hover Overlay */}
                   <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                     <span className="px-4 py-2 rounded-lg bg-card/90 text-foreground font-medium text-sm">
                       View Details
@@ -134,7 +128,6 @@ export default function Projects() {
                   </div>
                 </div>
 
-                {/* Content */}
                 <div className="p-5">
                   <h3 className="text-lg font-semibold text-foreground mb-2 group-hover:text-primary transition-colors">
                     {project.title}
@@ -142,8 +135,6 @@ export default function Projects() {
                   <p className="text-sm text-muted-foreground mb-4 line-clamp-2">
                     {project.description}
                   </p>
-
-                  {/* Technologies */}
                   <div className="flex flex-wrap gap-2">
                     {project.technologies.slice(0, 3).map((tech) => (
                       <span
@@ -183,7 +174,6 @@ export default function Projects() {
                 onClick={(e) => e.stopPropagation()}
                 className="relative w-full max-w-4xl max-h-[90vh] overflow-y-auto glass-card rounded-2xl"
               >
-                {/* Close Button */}
                 <button
                   onClick={closeModal}
                   className="absolute top-4 right-4 z-10 p-2 rounded-lg bg-secondary hover:bg-accent transition-colors"
@@ -198,7 +188,6 @@ export default function Projects() {
                     alt={selectedProject.title}
                     className="w-full h-full object-cover"
                   />
-                  
                   {selectedProject.images.length > 1 && (
                     <>
                       <button
@@ -213,8 +202,6 @@ export default function Projects() {
                       >
                         <ChevronRight className="w-5 h-5" />
                       </button>
-
-                      {/* Image Dots */}
                       <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
                         {selectedProject.images.map((_, idx) => (
                           <button
@@ -242,7 +229,7 @@ export default function Projects() {
                       </h3>
                     </div>
 
-                    {/* Action Buttons */}
+                    {/* Action Buttons with Video Demo */}
                     <div className="flex gap-2">
                       {selectedProject.githubUrl && (
                         <a
@@ -266,31 +253,23 @@ export default function Projects() {
                           <span className="text-sm font-medium">Live Demo</span>
                         </a>
                       )}
+                      {selectedProject.videoUrl && (
+                        <a
+                          href={selectedProject.videoUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-2 px-4 py-2 rounded-lg bg-red-600 text-white hover:bg-red-700 transition-colors"
+                        >
+                          <Play className="w-4 h-4" />
+                          <span className="text-sm font-medium">Video Demo</span>
+                        </a>
+                      )}
                     </div>
                   </div>
 
                   <p className="text-muted-foreground mb-6 leading-relaxed">
                     {selectedProject.longDescription}
                   </p>
-
-                  {/* Video Demo */}
-                  {selectedProject.videoUrl && (
-                    <div className="mb-6">
-                      <h4 className="text-sm font-semibold text-foreground mb-3 flex items-center gap-2">
-                        <Play className="w-4 h-4" />
-                        Video Demo
-                      </h4>
-                      <div className="aspect-video rounded-lg overflow-hidden bg-secondary">
-                        <iframe
-                          src={selectedProject.videoUrl}
-                          title="Project Demo"
-                          className="w-full h-full"
-                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowFullScreen
-                        />
-                      </div>
-                    </div>
-                  )}
 
                   {/* Technologies */}
                   <div>

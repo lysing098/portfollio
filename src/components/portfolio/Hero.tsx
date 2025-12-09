@@ -97,7 +97,7 @@ export default function Hero() {
         >
           Passionate about crafting beautiful, functional web experiences.
           <br className="hidden sm:block" />
-          Currently diving deep into React, Laravel, and Java Spring Boot.
+          Currently diving deep into React, Vue, Laravel, and Java Spring Boot.
         </motion.p>
 
         {/* CTA Buttons */}
