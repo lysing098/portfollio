@@ -79,14 +79,14 @@ export default function Hero() {
         </motion.h1>
 
         {/* Title */}
-        <motion.p
+        {/* <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-lg md:text-xl text-muted-foreground font-medium mb-4"
         >
           Aspiring Fullstack Developer
-        </motion.p>
+        </motion.p> */}
 
         {/* Tagline */}
         <motion.p
@@ -95,7 +95,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto mb-10"
         >
-          Passionate about crafting beautiful, functional web experiences.
+          Passionate about building beautiful website.
           <br className="hidden sm:block" />
           Currently diving deep into React, Vue, Laravel, and Java Spring Boot.
         </motion.p>
@@ -120,7 +120,7 @@ export default function Hero() {
             </span>
           </motion.button>
 
-          <motion.a
+          {/* <motion.a
             href={socialLinks.github}
             target="_blank"
             rel="noopener noreferrer"
@@ -131,7 +131,7 @@ export default function Hero() {
             <Github className="w-5 h-5" />
             GitHub Profile
             <ExternalLink className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-          </motion.a>
+          </motion.a> */}
         </motion.div>
 
         {/* Tech Stack Preview */}

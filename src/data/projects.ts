@@ -4,6 +4,8 @@ import dress from "../../public/dress.png";
 import dress1 from "../../public/dress1.png";
 import ecoshop from "../../public/ecoshop.png";
 import wiostyle from "../../public/wiostyle.png";
+import male1 from "../../public/male-fashion1.png";
+import male2 from "../../public/male-fashion2.png";
 
 // Project data - easily add new projects by adding objects to this array
 export interface Project {
@@ -23,27 +25,12 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: "dress-shop",
-    title: "Dress Shop",
-    description: "A project that frontend control by admin panel.",
-    longDescription:
-      "Admin panel control product carousel category. and for frontend show product carousel and category and can view product detail and add to cart",
-    thumbnail: dress1,
-    images: [dress],
-    technologies: ["Laravel", "React", "Tailwind CSS", "MySQL"],
-    category: "fullstack",
-    githubUrl: "https://github.com/lysing098/dress-shop",
-    videoUrl: "https://youtu.be/Iv3OtV5t7QI",
-    featured: false,
-  },
-
-  {
     id: "zando static",
     title: "Zando Static",
     description:
       "A static clone of the Zando website, built to practice React and Tailwind CSS.",
     longDescription:
-      "This project is a static clone of the Zando e-commerce website. It demonstrates responsive design, interactive components, and the use of React libraries including React Hot Toast, React Icons, React Slick, and Slick Carousel. Built to showcase frontend development skills and practical React implementation.",
+      "This project is a static website that clone ui from Zando website. The website has responsive , interactive components, and the use of React libraries including React Hot Toast, React Icons, React Slick, and Slick Carousel. Built to showcase frontend development skills and design.",
     thumbnail: zando,
     images: [zando],
     technologies: [
@@ -57,7 +44,7 @@ export const projects: Project[] = [
     category: "frontend",
     githubUrl: "https://github.com/lysing098/zando-static",
     liveUrl: "https://lysing098.github.io/zando-static/", // website demo
-    videoUrl: "https://youtu.be/IKReDB4LcUc",
+    // videoUrl: "https://youtu.be/IKReDB4LcUc",
     featured: false,
   },
   {
@@ -81,7 +68,7 @@ export const projects: Project[] = [
     category: "frontend",
     githubUrl: "https://github.com/lysing098/wiostyle",
     liveUrl: "https://wiostyle.vercel.app/", // website demo
-    videoUrl: "https://youtu.be/fwlFzPT-qIc",
+    // videoUrl: "https://youtu.be/fwlFzPT-qIc",
     featured: false,
   },
   {
@@ -97,7 +84,7 @@ export const projects: Project[] = [
     category: "frontend",
     githubUrl: "https://github.com/lysing098/echoshop",
     liveUrl: "https://echoshop-xi.vercel.app/", // website demo
-    videoUrl: "https://youtu.be/KEySXAgjKgk",
+    // videoUrl: "https://youtu.be/KEySXAgjKgk",
     featured: false,
   },
   {
@@ -113,7 +100,7 @@ export const projects: Project[] = [
     category: "frontend",
     githubUrl: "https://github.com/lysing098/beanx",
     liveUrl: "https://beanx-neon.vercel.app/", // website demo
-    videoUrl: "https://youtu.be/Gc8KpId2pIo",
+    //videoUrl: "https://youtu.be/Gc8KpId2pIo",
     featured: false,
   },
   {
@@ -130,7 +117,7 @@ export const projects: Project[] = [
     technologies: ["Java Spring Boot", "React", "MySQL", "Ant Design"],
     category: "backend",
     githubUrl: "https://github.com/lysing098/final-java-spring-boot",
-    videoUrl: "https://youtu.be/hMKJXIu483g", // YouTube demo
+    // videoUrl: "https://youtu.be/hMKJXIu483g", // YouTube demo
     featured: false,
   },
   {
@@ -147,9 +134,38 @@ export const projects: Project[] = [
     technologies: ["Laravel", "MySQL"],
     category: "backend",
     githubUrl: "https://github.com/lysing098/laravel-api",
-    // liveUrl: "https://laravel-api-demo.com", 
+    // liveUrl: "https://laravel-api-demo.com",
     featured: false,
   },
+  {
+    id: "react-laravel",
+    title: "Male Fashion",
+    description:
+      "A Fullstack project that using React for frontend and Laravel for backend along side with admin dashboard.",
+    longDescription:
+      "This project is a fullstack website that has admin dashboard. Admin can control product, category, etc. And for frontend show carousel, view product, and add to cart. ",
+    thumbnail: male1,
+    images: [male2],
+    technologies: ["Laravel", "React", "MySQL", "Tailwind CSS"],
+    category: "fullstack",
+    githubUrl: "https://github.com/lysing098/male-fashion",
+    // liveUrl: "https://laravel-api-demo.com",
+    featured: false,
+  },
+  // {
+  //   id: "dress-shop",
+  //   title: "Dress Shop",
+  //   description: "A project that frontend control by admin panel.",
+  //   longDescription:
+  //     "Admin panel control product carousel category. and for frontend show product carousel and category and can view product detail and add to cart",
+  //   thumbnail: dress1,
+  //   images: [dress],
+  //   technologies: ["Laravel", "React", "Tailwind CSS", "MySQL"],
+  //   category: "fullstack",
+  //   githubUrl: "https://github.com/lysing098/dress-shop",
+  //   videoUrl: "https://youtu.be/Iv3OtV5t7QI",
+  //   featured: false,
+  // },
 ];
 
 // Skills data
@@ -162,23 +178,23 @@ export interface Skill {
 
 export const skills: Skill[] = [
   // Frontend
-  { name: "React", icon: "⚛️", level: 80, category: "frontend" },
-  { name: "Vue", icon: "🟩", level: 70, category: "frontend" },
-  { name: "JavaScript", icon: "🟨", level: 70, category: "frontend" },
+  { name: "React", icon: "⚛️", level: 75, category: "frontend" },
+  { name: "Vue", icon: "🟩", level: 50, category: "frontend" },
+  // { name: "JavaScript", icon: "🟨", level: 70, category: "frontend" },
   { name: "HTML5", icon: "🌐", level: 95, category: "frontend" },
   { name: "CSS3", icon: "🎨", level: 95, category: "frontend" },
-  { name: "Tailwind CSS", icon: "💨", level: 95, category: "frontend" },
+  { name: "Tailwind CSS", icon: "💨", level: 79, category: "frontend" },
 
   // Backend
-  { name: "Laravel", icon: "🔴", level: 80, category: "backend" },
+  { name: "Laravel", icon: "🔴", level: 78, category: "backend" },
   { name: "Java Spring Boot", icon: "🍃", level: 50, category: "backend" },
   { name: "MySQL", icon: "🐬", level: 75, category: "backend" },
-  { name: "PostgreSQL", icon: "🐘", level: 70, category: "backend" },
+  // { name: "PostgreSQL", icon: "🐘", level: 70, category: "backend" },
 
   // Tools
   { name: "Git", icon: "📦", level: 60, category: "tools" },
-  { name: "VS Code", icon: "💻", level: 95, category: "tools" },
-  { name: "Figma", icon: "🎯", level: 40, category: "tools" },
+  // { name: "VS Code", icon: "💻", level: 95, category: "tools" },
+  // { name: "Figma", icon: "🎯", level: 40, category: "tools" },
 ];
 
 // Social links

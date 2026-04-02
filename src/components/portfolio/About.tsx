@@ -90,25 +90,20 @@ export default function About() {
               <h3 className="text-xl font-semibold mb-4 text-foreground">Hello there! 👋</h3>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  I'm an aspiring fullstack developer with a deep passion for building web applications
-                  that make a difference. While I'm still early in my professional journey, I've been
-                  dedicating countless hours to learning and building projects.
+                  I'm a final year MIS student at Setec Institute. I have a strong passion in web development, and I'm eager to learn and grow in fullstack developement. I have experience in Laravel, React, Vue, Tailwind Css, Java Spring Boot, and MySQL. I'm currently focused on building my skills in React and Laravel, and I'm excited to explore new technologies.
                 </p>
                 <p>
-                  My focus areas include <span className="text-primary font-medium">React</span> for
+                  My focus areas include <span className="text-primary font-medium">React, Vue</span> for
                   dynamic frontends, <span className="text-primary font-medium">Laravel</span> and
                   <span className="text-primary font-medium"> Java Spring Boot</span> for robust backends.
                   I believe in learning by doing, which is why I've built several personal projects
                   to apply what I've learned.
                 </p>
-                <p>
-                  I'm actively seeking opportunities to contribute to real-world projects, collaborate
-                  with experienced developers, and continue growing as a professional.
-                </p>
+                
               </div>
               
               {/* Resume Download */}
-              <motion.a
+              {/* <motion.a
                 href="#"
                 className="inline-flex items-center gap-2 mt-6 px-6 py-3 rounded-xl bg-primary text-primary-foreground font-medium hover:bg-primary/90 transition-colors"
                 whileHover={{ scale: 1.02 }}
@@ -116,7 +111,7 @@ export default function About() {
               >
                 <Download className="w-4 h-4" />
                 Download Resume
-              </motion.a>
+              </motion.a> */}
             </motion.div>
 
             {/* Highlights */}
