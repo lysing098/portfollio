@@ -7,6 +7,7 @@ import wiostyle from "../../public/wiostyle.png";
 import male1 from "../../public/male-fashion1.png";
 import male2 from "../../public/male-fashion2.png";
 import male3 from "../../public/male-fashion3.png";
+import male4 from "../../public/male-fashion4.png";
 
 // Project data - easily add new projects by adding objects to this array
 export interface Project {
@@ -165,7 +166,7 @@ export const projects: Project[] = [
     longDescription:
       "This project is a fullstack website that has admin dashboard. Admin can control product, category, etc. And for frontend show carousel, view product, and add to cart. ",
     thumbnail: male1,
-    images: [male2, male3],
+    images: [male2, male3, male4],
     technologies: ["Laravel", "React", "MySQL", "Tailwind CSS"],
     category: "fullstack",
     githubUrl: "https://github.com/lysing098/male-fashion",
