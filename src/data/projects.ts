@@ -6,6 +6,7 @@ import ecoshop from "../../public/ecoshop.png";
 import wiostyle from "../../public/wiostyle.png";
 import male1 from "../../public/male-fashion1.png";
 import male2 from "../../public/male-fashion2.png";
+import male3 from "../../public/male-fashion3.png";
 
 // Project data - easily add new projects by adding objects to this array
 export interface Project {
@@ -28,9 +29,9 @@ export const projects: Project[] = [
     id: "zando static",
     title: "Zando Static",
     description:
-      "A static clone of the Zando website, built to practice React and Tailwind CSS.",
+      "A static website that clone from Zando website, built to practice React and Tailwind CSS.",
     longDescription:
-      "This project is a static website that clone ui from Zando website. The website has responsive , interactive components, and the use of React libraries including React Hot Toast, React Icons, React Slick, and Slick Carousel. Built to showcase frontend development skills and design.",
+      "This project is a static website that clone ui from Zando website. The website has responsive. This project has function such as add to cart, add to wishlist, and view product detail.",
     thumbnail: zando,
     images: [zando],
     technologies: [
@@ -47,37 +48,39 @@ export const projects: Project[] = [
     // videoUrl: "https://youtu.be/IKReDB4LcUc",
     featured: false,
   },
-  {
-    id: "wiostyle",
-    title: "Wiostyle",
-    description:
-      "A static clone of the Zando website, built to practice React and Tailwind CSS.",
-    longDescription:
-      "This project is a static clone of the Zando e-commerce website. It demonstrates responsive design, interactive components, and the use of React libraries including React Hot Toast, React Icons, React Slick, and Slick Carousel. Built to showcase frontend development skills and practical React implementation.",
-    thumbnail: wiostyle,
-    images: [wiostyle],
-    technologies: [
-      "React",
-      "Public api",
-      "Tailwind CSS",
-      "React Hot Toast",
-      "React Icons",
-      "React Slick",
-      "Slick Carousel",
-    ],
-    category: "frontend",
-    githubUrl: "https://github.com/lysing098/wiostyle",
-    liveUrl: "https://wiostyle.vercel.app/", // website demo
-    // videoUrl: "https://youtu.be/fwlFzPT-qIc",
-    featured: false,
-  },
+
+  /* error fetch data from API */
+  // {
+  //   id: "wiostyle",
+  //   title: "Wiostyle",
+  //   description:
+  //     "A static clone of the Zando website, built to practice React and Tailwind CSS.",
+  //   longDescription:
+  //     "This project is a static clone of the Zando e-commerce website. It demonstrates responsive design, interactive components, and the use of React libraries including React Hot Toast, React Icons, React Slick, and Slick Carousel. Built to showcase frontend development skills and practical React implementation.",
+  //   thumbnail: wiostyle,
+  //   images: [wiostyle],
+  //   technologies: [
+  //     "React",
+  //     "Public api",
+  //     "Tailwind CSS",
+  //     "React Hot Toast",
+  //     "React Icons",
+  //     "React Slick",
+  //     "Slick Carousel",
+  //   ],
+  //   category: "frontend",
+  //   githubUrl: "https://github.com/lysing098/wiostyle",
+  //   liveUrl: "https://wiostyle.vercel.app/", // website demo
+  //   // videoUrl: "https://youtu.be/fwlFzPT-qIc",
+  //   featured: false,
+  // },
   {
     id: "ecoshop",
     title: "Ecoshop",
     description:
-      "A static clone of the Zando website, built to practice React and Tailwind CSS.",
+      "A static website that clone ui from the internet. This website using Vue.js and Tailwind CSS.",
     longDescription:
-      "This project is a static clone of the Zando e-commerce website. It demonstrates responsive design, interactive components, and the use of React libraries including React Hot Toast, React Icons, React Slick, and Slick Carousel. Built to showcase frontend development skills and practical React implementation.",
+      "This project is a static  website. This project has no responsive or other function. This project i focus on practice design and animation ui.",
     thumbnail: ecoshop,
     images: [ecoshop],
     technologies: ["Vue", "Tailwind CSS", "Slick Carousel"],
@@ -91,12 +94,12 @@ export const projects: Project[] = [
     id: "beanx",
     title: "Beanx",
     description:
-      "A static clone of the Zando website, built to practice React and Tailwind CSS.",
+      "A website that clone ui from the internet. This website using Vue.js and Tailwind CSS.",
     longDescription:
-      "This project is a static clone of the Zando e-commerce website. It demonstrates responsive design, interactive components, and the use of React libraries including React Hot Toast, React Icons, React Slick, and Slick Carousel. Built to showcase frontend development skills and practical React implementation.",
+      "A website that clone ui from the internet. This website using Vue.js and Tailwind CSS. It has no responsive design but it has product detail and add to cart feature.",
     thumbnail: beanx,
     images: [beanx],
-    technologies: ["Vue", "Public api", "Tailwind CSS", "Slick Carousel"],
+    technologies: ["Vue",  "Tailwind CSS", "Slick Carousel"],
     category: "frontend",
     githubUrl: "https://github.com/lysing098/beanx",
     liveUrl: "https://beanx-neon.vercel.app/", // website demo
@@ -108,7 +111,7 @@ export const projects: Project[] = [
     title: "Java Spring Boot Admin Dashboard",
     description: "Admin dashboard integrated with Java Spring Boot backend.",
     longDescription:
-      "Built for a final year project. Features user management, CRUD operations, and dashboard analytics. Frontend built with React and Ant Design; backend with Java Spring Boot and MySQL.",
+      "Built for school project. Frontend built with React and Ant Design; backend with Java Spring Boot and MySQL.",
     thumbnail:
       "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80",
     images: [
@@ -121,22 +124,39 @@ export const projects: Project[] = [
     featured: false,
   },
   {
-    id: "laravel-api",
-    title: "Laravel API",
-    description: "A Laravel API project using JWT for secure authentication.",
+    id: "Java spring boot",
+    title: "Java Spring Boot Api",
+    description: "A Java Spring Boot Api project use for control stock.",
     longDescription:
-      "This project includes protected routes, JWT authentication, image upload, and CRUD operations.",
+  "Built a basic stock management system with CRUD operations for managing products, categories, brands, and suppliers. The application allows users to create, update, view, and delete records.",
     thumbnail:
       "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80",
     images: [
       "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&q=80",
     ],
-    technologies: ["Laravel", "MySQL"],
+    technologies: ["Java Spring Boot",  "MySQL"],
     category: "backend",
-    githubUrl: "https://github.com/lysing098/laravel-api",
-    // liveUrl: "https://laravel-api-demo.com",
+    githubUrl: "https://github.com/lysing098/stock-controller",
+    // videoUrl: "https://youtu.be/hMKJXIu483g", // YouTube demo
     featured: false,
   },
+  // {
+  //   id: "laravel-api",
+  //   title: "Laravel API",
+  //   description: "A Laravel API project using JWT for secure authentication.",
+  //   longDescription:
+  //     "This project includes protected routes, JWT authentication, image upload, and CRUD operations.",
+  //   thumbnail:
+  //     "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80",
+  //   images: [
+  //     "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&q=80",
+  //   ],
+  //   technologies: ["Laravel", "MySQL"],
+  //   category: "backend",
+  //   githubUrl: "https://github.com/lysing098/laravel-api",
+  //   // liveUrl: "https://laravel-api-demo.com",
+  //   featured: false,
+  // },
   {
     id: "react-laravel",
     title: "Male Fashion",
@@ -145,7 +165,7 @@ export const projects: Project[] = [
     longDescription:
       "This project is a fullstack website that has admin dashboard. Admin can control product, category, etc. And for frontend show carousel, view product, and add to cart. ",
     thumbnail: male1,
-    images: [male2],
+    images: [male2, male3],
     technologies: ["Laravel", "React", "MySQL", "Tailwind CSS"],
     category: "fullstack",
     githubUrl: "https://github.com/lysing098/male-fashion",
