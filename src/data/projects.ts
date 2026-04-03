@@ -201,8 +201,8 @@ export const skills: Skill[] = [
   { name: "React", icon: "⚛️", level: 75, category: "frontend" },
   { name: "Vue", icon: "🟩", level: 50, category: "frontend" },
   // { name: "JavaScript", icon: "🟨", level: 70, category: "frontend" },
-  { name: "HTML5", icon: "🌐", level: 95, category: "frontend" },
-  { name: "CSS3", icon: "🎨", level: 95, category: "frontend" },
+  // { name: "HTML5", icon: "🌐", level: 95, category: "frontend" },
+  // { name: "CSS3", icon: "🎨", level: 95, category: "frontend" },
   { name: "Tailwind CSS", icon: "💨", level: 79, category: "frontend" },
 
   // Backend

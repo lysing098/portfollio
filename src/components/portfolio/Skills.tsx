@@ -116,7 +116,7 @@ export default function Skills() {
                   skill.level >= 80 ? 'text-green-500' :
                   skill.level >= 60 ? 'text-primary' : 'text-yellow-500'
                 }`}>
-                  {skill.level >= 80 ? 'Advanced' : skill.level >= 60 ? 'Intermediate' : 'Learning'}
+                  {skill.level >= 80 ? 'Advanced' : skill.level >= 60 ? 'Intermediate' : 'Beginner'}
                 </span>
               </div>
             </motion.div>

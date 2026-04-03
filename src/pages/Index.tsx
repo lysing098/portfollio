@@ -50,11 +50,11 @@ const Index = () => {
           <Projects />
 
           {/* Contact Section - Form and social links */}
-          <Contact />
+          {/* <Contact /> */}
         </main>
 
         {/* Footer - Separate from header navigation */}
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );

@@ -7,7 +7,7 @@ const navLinks = [
   { name: 'About', href: '#about' },
   { name: 'Skills', href: '#skills' },
   { name: 'Projects', href: '#projects' },
-  { name: 'Contact', href: '#contact' },
+  // { name: 'Contact', href: '#contact' },
 ];
 
 export default function Header() {
@@ -72,7 +72,7 @@ export default function Header() {
             whileTap={{ scale: 0.98 }}
           >
             <Code2 className="w-6 h-6 text-primary group-hover:rotate-12 transition-transform duration-300" />
-            <span className="gradient-text">Lysing</span>
+            <span className="gradient-text">Poung Loklysing</span>
           </motion.a>
 
           {/* Desktop Navigation */}

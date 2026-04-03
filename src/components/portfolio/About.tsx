@@ -8,10 +8,10 @@ const technologies = [
   { name: 'React', icon: '⚛️', description: 'Frontend Library' },
   { name: 'Vue', icon: '🟩', description: 'Frontend Framework' }, // added Vue
   { name: 'Java Spring Boot', icon: '🍃', description: 'Backend Framework' },
-  { name: 'JavaScript', icon: '🟨', description: 'Programming Language' },
-  { name: 'HTML/CSS', icon: '🌐', description: 'Web Fundamentals' },
+  // { name: 'JavaScript', icon: '🟨', description: 'Programming Language' },
+  // { name: 'HTML/CSS', icon: '🌐', description: 'Web Fundamentals' },
   { name: 'Tailwind CSS', icon: '💨', description: 'CSS Framework' },
-  { name: 'Design', icon: '🎨', description: 'UI/UX Principles' },
+  // { name: 'Design', icon: '🎨', description: 'UI/UX Principles' },
   { name: 'Git', icon: '📦', description: 'Version Control' },
 ];
 
@@ -164,7 +164,7 @@ export default function About() {
             </div>
 
             {/* Learning Stats */}
-            <motion.div
+            {/* <motion.div
               variants={itemVariants}
               className="mt-6 glass-card rounded-2xl p-6 glow-primary"
             >
@@ -183,7 +183,7 @@ export default function About() {
                   <span className="text-sm font-medium text-primary">Learning</span>
                 </div>
               </div>
-            </motion.div>
+            </motion.div> */}
           </motion.div>
         </div>
       </div>
