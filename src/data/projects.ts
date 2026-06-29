@@ -144,7 +144,7 @@ export const projects: Project[] = [
   {
     id: "Java spring boot",
     title: "Java Spring Boot Api",
-    description: "",
+    description: "A Spring Boot application that imports supply data from an Excel file into an H2 database. The system automatically creates supply records and updates product inventory based on the imported Excel data.",
     longDescription: "",
     thumbnail:
       "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80",
@@ -160,7 +160,7 @@ export const projects: Project[] = [
   {
     id: "Java spring boot",
     title: "Java Spring Boot Api",
-    description: "",
+    description: "This project demonstrates Google OAuth2 Login using Spring Security.",
     longDescription: "",
     thumbnail:
       "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80",
@@ -176,7 +176,7 @@ export const projects: Project[] = [
   {
     id: "Java spring boot",
     title: "Java Spring Boot Api",
-    description: "",
+    description: "A Spring Boot REST API that allows users to upload PDF files, store them in the database, and download them by ID.",
     longDescription: "",
     thumbnail:
       "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80",
