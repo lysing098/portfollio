@@ -100,7 +100,7 @@ export const projects: Project[] = [
       "A website that clone ui from the internet. This website using Vue.js and Tailwind CSS. It has no responsive design but it has product detail and add to cart feature.",
     thumbnail: beanx,
     images: [beanx],
-    technologies: ["Vue",  "Tailwind CSS", "Slick Carousel"],
+    technologies: ["Vue", "Tailwind CSS", "Slick Carousel"],
     category: "frontend",
     githubUrl: "https://github.com/lysing098/beanx",
     liveUrl: "https://beanx-neon.vercel.app/", // website demo
@@ -129,15 +129,63 @@ export const projects: Project[] = [
     title: "Java Spring Boot Api",
     description: "A Java Spring Boot Api project use for control stock.",
     longDescription:
-  "Built a basic stock management system with CRUD operations for managing products, categories, brands, and suppliers. The application allows users to create, update, view, and delete records.",
+      "Built a basic stock management system with CRUD operations for managing products, categories, brands, and suppliers. The application allows users to create, update, view, and delete records.",
     thumbnail:
       "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80",
     images: [
       "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&q=80",
     ],
-    technologies: ["Java Spring Boot",  "MySQL"],
+    technologies: ["Java Spring Boot", "MySQL"],
     category: "backend",
     githubUrl: "https://github.com/lysing098/stock-controller",
+    // videoUrl: "https://youtu.be/hMKJXIu483g", // YouTube demo
+    featured: false,
+  },
+  {
+    id: "Java spring boot",
+    title: "Java Spring Boot Api",
+    description: "",
+    longDescription: "",
+    thumbnail:
+      "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&q=80",
+    ],
+    technologies: ["Java Spring Boot"],
+    category: "backend",
+    githubUrl: "https://github.com/lysing098/import-excel-spring-boot",
+    // videoUrl: "https://youtu.be/hMKJXIu483g", // YouTube demo
+    featured: false,
+  },
+  {
+    id: "Java spring boot",
+    title: "Java Spring Boot Api",
+    description: "",
+    longDescription: "",
+    thumbnail:
+      "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&q=80",
+    ],
+    technologies: ["Java Spring Boot"],
+    category: "backend",
+    githubUrl: "https://github.com/lysing098/oauth-spring-boot",
+    // videoUrl: "https://youtu.be/hMKJXIu483g", // YouTube demo
+    featured: false,
+  },
+  {
+    id: "Java spring boot",
+    title: "Java Spring Boot Api",
+    description: "",
+    longDescription: "",
+    thumbnail:
+      "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&q=80",
+    ],
+    technologies: ["Java Spring Boot"],
+    category: "backend",
+    githubUrl: "https://github.com/lysing098/download-pdf-spring-boot",
     // videoUrl: "https://youtu.be/hMKJXIu483g", // YouTube demo
     featured: false,
   },
