@@ -108,7 +108,7 @@ export const projects: Project[] = [
     featured: false,
   },
   {
-    id: "Java spring boot",
+    id: "Admin dashboard by using java spring boot as Api",
     title: "Java Spring Boot Admin Dashboard",
     description: "Admin dashboard integrated with Java Spring Boot backend.",
     longDescription:
@@ -125,7 +125,7 @@ export const projects: Project[] = [
     featured: false,
   },
   {
-    id: "Java spring boot",
+    id: "Stock controller",
     title: "Java Spring Boot Api",
     description: "A Java Spring Boot Api project use for control stock.",
     longDescription:
@@ -142,7 +142,7 @@ export const projects: Project[] = [
     featured: false,
   },
   {
-    id: "Java spring boot",
+    id: "Import excel to create records",
     title: "Java Spring Boot Api",
     description: "A Spring Boot application that imports supply data from an Excel file into an H2 database. The system automatically creates supply records and updates product inventory based on the imported Excel data.",
     longDescription: "",
@@ -158,7 +158,7 @@ export const projects: Project[] = [
     featured: false,
   },
   {
-    id: "Java spring boot",
+    id: "Google OAuth2 Login",
     title: "Java Spring Boot Api",
     description: "This project demonstrates Google OAuth2 Login using Spring Security.",
     longDescription: "",
@@ -174,7 +174,7 @@ export const projects: Project[] = [
     featured: false,
   },
   {
-    id: "Java spring boot",
+    id: "Store and Download PDF",
     title: "Java Spring Boot Api",
     description: "A Spring Boot REST API that allows users to upload PDF files, store them in the database, and download them by ID.",
     longDescription: "",
