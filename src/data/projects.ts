@@ -126,7 +126,7 @@ export const projects: Project[] = [
   },
   {
     id: "Stock controller",
-    title: "Java Spring Boot Api",
+    title: "Java Spring Boot Stock Controller",
     description: "A Java Spring Boot Api project use for control stock.",
     longDescription:
       "Built a basic stock management system with CRUD operations for managing products, categories, brands, and suppliers. The application allows users to create, update, view, and delete records.",
@@ -143,7 +143,7 @@ export const projects: Project[] = [
   },
   {
     id: "Import excel to create records",
-    title: "Java Spring Boot Api",
+    title: "Import Excel to Create Records",
     description: "A Spring Boot application that imports supply data from an Excel file into an H2 database. The system automatically creates supply records and updates product inventory based on the imported Excel data.",
     longDescription: "",
     thumbnail:
@@ -159,7 +159,7 @@ export const projects: Project[] = [
   },
   {
     id: "Google OAuth2 Login",
-    title: "Java Spring Boot Api",
+    title: "Google OAuth2 Login",
     description: "This project demonstrates Google OAuth2 Login using Spring Security.",
     longDescription: "",
     thumbnail:
@@ -175,7 +175,7 @@ export const projects: Project[] = [
   },
   {
     id: "Store and Download PDF",
-    title: "Java Spring Boot Api",
+    title: "Store and Download PDF",
     description: "A Spring Boot REST API that allows users to upload PDF files, store them in the database, and download them by ID.",
     longDescription: "",
     thumbnail:
