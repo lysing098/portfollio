@@ -157,22 +157,7 @@ export const projects: Project[] = [
     // videoUrl: "https://youtu.be/hMKJXIu483g", // YouTube demo
     featured: false,
   },
-  {
-    id: "Google OAuth2 Login",
-    title: "Google OAuth2 Login",
-    description: "This project demonstrates Google OAuth2 Login using Spring Security.",
-    longDescription: "",
-    thumbnail:
-      "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80",
-    images: [
-      "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&q=80",
-    ],
-    technologies: ["Java Spring Boot"],
-    category: "backend",
-    githubUrl: "https://github.com/lysing098/oauth-spring-boot",
-    // videoUrl: "https://youtu.be/hMKJXIu483g", // YouTube demo
-    featured: false,
-  },
+ 
   {
     id: "Store and Download PDF",
     title: "Store and Download PDF",
